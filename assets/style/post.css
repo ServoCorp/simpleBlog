@@ -123,8 +123,10 @@ body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogTitle p a
   transition: 0.9s;
 }
 
-.blogContainer {
+.mainContainer .blogContainer {
   overflow: scroll !important;
   overflow-x: hidden !important;
+  scrollbar-width: thin;
+  scrollbar-color: #ACDEA0 #272728;
 }
 /*# sourceMappingURL=post.css.map */

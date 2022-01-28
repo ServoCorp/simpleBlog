@@ -1,6 +1,9 @@
 @import "./main.scss";
-
-.blogContainer {
-    overflow: scroll !important;
-    overflow-x: hidden !important;
+.mainContainer {
+    .blogContainer {
+        overflow: scroll !important;
+        overflow-x: hidden !important;
+        scrollbar-width: thin;
+        scrollbar-color: $accent #272728;
+    }
 }

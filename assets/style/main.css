@@ -73,6 +73,10 @@ body .mainContainer .blogContainer .blog .blogText {
   text-align: center;
 }
 
+body .mainContainer .blogContainer .blog .blogComponent {
+  padding: 10px;
+}
+
 body .mainContainer .blogContainer .blog .blogComponent .blogYear {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
