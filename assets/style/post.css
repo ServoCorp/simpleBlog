@@ -73,6 +73,10 @@ body .mainContainer .blogContainer .blog .blogText {
   text-align: center;
 }
 
+body .mainContainer .blogContainer .blog .blogComponent {
+  padding: 10px;
+}
+
 body .mainContainer .blogContainer .blog .blogComponent .blogYear {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -104,6 +108,10 @@ body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogDate p {
   color: #ACDEA0;
 }
 
+body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogTitle {
+  margin-left: 2vw;
+}
+
 body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogTitle p {
   font-size: 1.5vw;
   color: white;
@@ -128,5 +136,17 @@ body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogTitle p a
   overflow-x: hidden !important;
   scrollbar-width: thin;
   scrollbar-color: #ACDEA0 #272728;
+}
+
+@media screen and (max-width: 667px) {
+  .mainContainer {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
 }
 /*# sourceMappingURL=post.css.map */

@@ -7,3 +7,10 @@
         scrollbar-color: $accent #272728;
     }
 }
+
+@media screen and (max-width: 667px) {
+    .mainContainer {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}

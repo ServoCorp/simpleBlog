@@ -108,6 +108,10 @@ body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogDate p {
   color: #ACDEA0;
 }
 
+body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogTitle {
+  margin-left: 2vw;
+}
+
 body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogTitle p {
   font-size: 1.5vw;
   color: white;
