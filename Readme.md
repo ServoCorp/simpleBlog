@@ -16,7 +16,7 @@ Feel free to contribute to the project & submit a pull request.
 - Open source :)
 
 
-
+![Preview](https://i.imgur.com/HB6rZ2r.png)
 
 ## License
 
