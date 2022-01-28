@@ -138,6 +138,10 @@ body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogTitle p a
   scrollbar-color: #ACDEA0 #272728;
 }
 
+.mainContainer .title {
+  margin-left: 11vw;
+}
+
 @media screen and (max-width: 667px) {
   .mainContainer {
     display: -webkit-box !important;
