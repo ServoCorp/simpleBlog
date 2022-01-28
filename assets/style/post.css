@@ -122,4 +122,9 @@ body .mainContainer .blogContainer .blog .blogComponent .blogPost .blogTitle p a
   -webkit-transition: 0.9s;
   transition: 0.9s;
 }
-/*# sourceMappingURL=main.css.map */
+
+.blogContainer {
+  overflow: scroll !important;
+  overflow-x: hidden !important;
+}
+/*# sourceMappingURL=post.css.map */
