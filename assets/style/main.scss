@@ -1,0 +1,110 @@
+//imports
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+//color variables
+$accent: #ACDEA0;
+$background: #2F2F2F;;
+
+* {
+    margin: 0 auto;
+    font-family: 'Varela Round', sans-serif;
+    transition: 0.6s;
+}
+
+
+body {
+    background: $background;
+    .mainContainer {
+        padding: 50px;
+        .breadCrumb {
+            margin-bottom: 3vh;
+            .breadCrumbText {
+                font-size: 0.5em;
+                color: white;
+                float: right;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+                span {
+                    color: $accent;
+                }
+            }
+        }
+        .blogContainer {
+            border: 1px solid $accent;
+            border-radius: 10px;
+            max-width: 50%;
+            max-height: 84vh;
+            overflow: scroll;
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+            .blog {
+                .blogHeader {
+                    display: flex;
+                    .bDate {
+                        font-size: 0.6vw;
+                        color: $accent;
+                        display: flex;
+                        align-items: center;
+                        margin-left: 1vw;
+                        margin-right: 0;
+                    }
+                    .title {
+                    font-size: 1.5vw;
+                    color: white;
+                    text-align: center;
+                    padding: 1vh;
+                    }
+            }
+            .blogText {
+                font-size: 0.9vw;
+                color: white;
+                padding: 1vh 5vw;
+                text-align: center;
+            }
+                .blogComponent {
+                    .blogYear {
+                        display: inline-flex;
+                        padding: 0.5vw;
+                        .fa-calendar-check-o {
+                            font-size: 1.5vw;
+                            color: $accent;
+                            margin-right: 0.5vw;
+                        }
+                        p {
+                            font-size: 1.5vw;
+                            color: white;
+                        }
+                    }
+                    .blogPost {
+                        display: flex;
+                        margin-right: 22vw;
+                        padding: 0.1vw;
+                        .blogDate {
+                            p {
+                                font-size: 1vw;
+                                color: $accent;
+                            }
+                        }
+                        .blogTitle {
+                            p {
+                                font-size: 1.5vw;
+                                color: white;
+                                a {
+                                    font-size: 1.5vw;
+                                    color: white;
+                                    text-decoration: none;
+                                    transition: 0.9s;
+                                    &:hover {
+                                        color: $accent;
+                                        transition: 0.9s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
