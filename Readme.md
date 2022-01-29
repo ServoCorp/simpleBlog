@@ -12,7 +12,6 @@ Feel free to contribute to the project & submit a pull request.
 
 - Breadcrumb nav system
 - SEO Friendly (I hope)
--  ̶M̶o̶b̶i̶l̶e̶ ̶R̶e̶s̶p̶o̶n̶s̶i̶v̶e̶  (WIP)
 - Open source :)
 
 
