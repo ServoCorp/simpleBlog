@@ -11,7 +11,7 @@ Feel free to contribute to the project & submit a pull request.
 ## Current Features
 
 - Breadcrumb nav system
-- SEO Friendly (I hope)
+- Mobile Friendly [WIP]
 - Open source :)
 
 
